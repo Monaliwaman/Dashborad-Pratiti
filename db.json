@@ -1,0 +1,169 @@
+{
+  "asset": [
+    {
+      "serialNo": "11",
+      "make": "lenovo",
+      "model": "1234",
+      "vendor": "Sonali Waman",
+      "procurementDate": "12/12/2022",
+      "retiredDate": "13/12/2022",
+      "description": "laptop",
+      "ram": "10gb",
+      "typeOfAsset": "laptop",
+      "category": "rented",
+      "status": "InActive",
+      "Action": "",
+      "id": 1
+    },
+    {
+      "serialNo": "12",
+      "make": "a",
+      "model": "b",
+      "vendor": "Sonali Waman",
+      "procurementDate": "c",
+      "retiredDate": "d",
+      "description": "e",
+      "ram": "1",
+      "typeOfAsset": "chair",
+      "category": "rented",
+      "status": "Active",
+      "Action": "",
+      "id": 2
+    },
+    {
+      "serialNo": "1111",
+      "make": "mo",
+      "model": "del",
+      "vendor": "Sonali Waman",
+      "procurementDate": "11/22/2222",
+      "retiredDate": "11/22/3333",
+      "description": "fsuokjj",
+      "ram": "jjjje",
+      "typeOfAsset": "desktop",
+      "category": "rented",
+      "status": "InActive",
+      "Action": "",
+      "id": 3
+    },
+    {
+      "serialNo": "",
+      "make": "",
+      "model": "",
+      "vendor": "",
+      "procurementDate": "",
+      "retiredDate": "",
+      "description": "",
+      "ram": "",
+      "typeOfAsset": "",
+      "category": "",
+      "status": "Active",
+      "Action": "",
+      "id": 4
+    },
+    {
+      "serialNo": "efiuwehsi",
+      "make": "sidufhweiufh",
+      "model": "sifhweiufh",
+      "vendor": "Rahul Waman",
+      "procurementDate": "efhiuh",
+      "retiredDate": "ifhwieh",
+      "description": "isuhiushdc",
+      "ram": "idfhweuihvu",
+      "typeOfAsset": "desktop",
+      "category": "rented",
+      "status": "Active",
+      "Action": "",
+      "id": 5
+    }
+  ],
+  "employee": [
+    {
+      "id": "1",
+      "name": "monali waman",
+      "email": "monali@gmail.com",
+      "contact no": "9234567892",
+      "group": "siemence",
+      "project": "asset"
+    },
+    {
+      "id": "2",
+      "name": "sonali waman",
+      "email": "sonali@gmail.com",
+      "contact no": "9234567892",
+      "group": "siemence",
+      "project": "asset"
+    }
+  ],
+  "vendor": [
+    {
+      "name": "Dhanashree",
+      "email": "ddss",
+      "contact": "sddsss",
+      "address": "ddddd",
+      "gst": "dds",
+      "date": "ddddd",
+      "status": "Active",
+      "id": 1
+    },
+    {
+      "name": "jkhdh",
+      "email": "1111",
+      "contact": "isdceuih",
+      "address": "11",
+      "gst": "isdnsnc",
+      "date": "kscjks",
+      "status": "Active",
+      "id": 2
+    },
+    {
+      "name": "ram",
+      "email": "fhsvj",
+      "contact": "kjsbvkjsb",
+      "address": "ksfbcdkjv",
+      "gst": "kfbvhkb",
+      "date": "kjdsbdskjv",
+      "status": "InActive",
+      "id": 3
+    },
+    {
+      "name": "iiiiiiii",
+      "email": "sdsd",
+      "contact": "dsd",
+      "address": "sd",
+      "gst": "",
+      "date": "",
+      "status": "Active",
+      "id": 4
+    },
+    {
+      "name": "vibhanshu",
+      "email": "",
+      "contact": "",
+      "address": "",
+      "gst": "nnn",
+      "date": "",
+      "status": "Active",
+      "id": 5
+    }
+  ],
+  "assignment": [
+    {
+      "serialNo": "sdsfs",
+      "employeeName": "sdfsdgrd",
+      "contact": "sdgdfhb",
+      "assignmentDate": "sdgdfh",
+      "returnDate": "gdsdfh",
+      "description": "sdgsfgs",
+      "id": 1
+    },
+    {
+      "serialNo": "11111",
+      "employeeName": "cvdvjhcxb",
+      "contact": "xcvsdhvhv",
+      "assignmentDate": "cvdfvew",
+      "returnDate": "shdv",
+      "description": "cvehve",
+      "id": 2
+    }
+  ]
+}

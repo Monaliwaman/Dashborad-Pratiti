@@ -1,0 +1,133 @@
+// 
+// authentication.scss
+//
+
+.auth-body-bg{
+    background-color: $card-bg;
+}
+.login-background-Carousel img{
+height: 100vh;
+object-fit: cover;
+}
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 32px;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+}
+.carousel-caption h3{
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+.carousel-caption p{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.authentication-bg{
+    // background-image: linear-gradient(to right, #060606bf, #060606bf), 
+    //background-image:url(../../../images/background-slider.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    .bg-overlay{
+        h1.auth-heading{ color:#fff; margin:auto; font-size: 3.4rem;text-transform: capitalize; }
+    }
+
+    @media (max-width: 991px) {
+            display: none;
+    }
+}
+
+.authentication-page-content{
+    height: 100vh;
+    display: flex;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+.authentication-page-content {
+	&::-webkit-scrollbar {
+		background-color: #fff;
+		width: 16px;
+	}
+	&::-webkit-scrollbar-track {
+		background-color: #fff;
+		&:hover {
+			background-color: #f4f4f4;
+		}
+	}
+	&::-webkit-scrollbar-thumb {
+		background-color: #babac0;
+		border-radius: 16px;
+		border: 5px solid #fff;
+		&:hover {
+			background-color: #a0a0a5;
+			border: 4px solid #f4f4f4;
+		}
+	}
+	&::-webkit-scrollbar-button {
+		display: none;
+	}
+}
+
+.auth-form-group-custom{
+    position: relative;
+    height: 66px;
+    .form-control{
+        height: 62px;
+        padding-top: 28px;
+        padding-left: 60px;
+    }
+
+    label{
+        position: absolute;
+        top: 7px;
+        left: 60px;
+    }
+
+    .auti-custom-input-icon{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 19px;
+        font-size: 24px;
+        color: $primary;
+    }
+}
+.check-box{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+// authentication home icon
+.home-btn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    z-index: 9;
+}
+.authentication-page-content {
+    .form-group + .mdi.mdi-eye{
+        top: 52%;
+    }
+	.text-danger.form-group + .mdi.mdi-eye {
+      top: 42%;
+  }
+}

@@ -1,0 +1,29 @@
+// 
+// Page-title
+// 
+.page-title{
+    // padding: 10px 18px;
+
+.page-title-box {
+    padding: 0px 0px 0px 14px;
+    margin: 0px;
+    position: fixed;
+    top: 104px;
+
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    h5{
+        text-transform: capitalize;
+        font-weight: 500;
+        color: #505d69;
+        font-size: 18px;
+     }
+    
+    }
+}
+.milers-heading{
+    font-size: 4rem;
+}

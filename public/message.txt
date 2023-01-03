@@ -1,0 +1,271 @@
+//Import Icon scss
+@import "./assets/scss/icons.scss";
+
+//import App scss
+@import "./assets/scss/bootstrap.scss";
+@import "./assets/scss/app.scss";
+
+//Import Dark theme
+// @import "./assets/scss/bootstrap-dark.scss";
+// @import "./assets/scss/app-dark.scss";
+
+// RTL mode
+// @import "./assets/scss/bootstrap.scss";
+// @import "./assets/scss/app-rtl.scss";
+
+.nav-link {
+    cursor: pointer;
+}
+
+
+
+.dataTables_filter, .dataTables_paginate
+{
+    float: right;
+    .pagination {
+            .page-link {
+                border-radius: 30px !important;
+                margin: 0 3px;
+                border: none;
+                text-align: center;
+                cursor: pointer;
+            }
+    }
+}
+
+.rdw-editor-main
+{
+    border: 1px solid  $gray-300;
+    height: 239px;
+}
+.dz-message
+{
+     text-align: center;
+    padding: 100px;
+}
+
+.react-datepicker-wrapper
+{
+    width: 100%!important;
+}
+
+.ReactModal__Overlay
+{
+  z-index: 1001!important;
+}
+
+.rangeslider__fill {
+    background-color: $primary !important;
+}
+
+.react-bootstrap-table{
+    padding-top: 0px!important;
+}
+
+.square-switch
+{
+ .react-switch-bg
+ {
+ border-radius : 5px!important;
+ }   
+}
+
+input[type="range"] {
+    -webkit-appearance: auto!important;
+}
+
+/* Checkout Steps */
+.progressbar {
+    counter-reset: step;
+  }
+  
+  .progressbar li {
+    position: relative;
+    list-style: none;
+    float: left;
+    width: 18%;
+    text-align: center;
+  }
+  
+  /* Circles */
+  .progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #869095;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background-color: #869095;
+    color:#fff;
+    /* Center # in circle */
+    line-height: 39px;
+  }
+  
+  .progressbar li:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #869095 ;
+    top: 20px; /*half of height Parent (li) */
+    left: -50%;
+    z-index: -1;
+  }
+  // .progressbar .color-theme{
+  //   // color:#258ffc;
+  // }
+  .progressbar li:first-child:after {
+    content: none;
+  }
+  .progressbar li.active{
+    .color-theme{
+      color:#258ffc;
+    }
+  }
+  .progressbar li.active:before {
+    background: #258ffc;
+    content: "✔";  
+  }
+  
+  .progressbar li.active + li:after {
+    background: #258ffc;
+  }
+
+  .progressbar li.active2:before {
+    background: #258ffc !important;
+    color: #ffff;
+    border: 1px solid #258ffc;
+    .color-theme{
+      color:#258ffc;
+    }
+  }
+  .progressbar li.active2 + li:after {
+    background: #258ffc;
+    color: #258ffc;
+  }
+  .progressbar li.active2  {
+    color: #258ffc;
+  }
+//  stepone start
+.form-control-file, .form-control-range{
+  display: block;
+    width: 100%;
+    height: 100%;
+}
+// step one end 
+// HowToSetUp start
+.howtosetup-manu{
+  text-align: center;
+
+  .howtoset-menu-heading{
+    font-size: 22px;
+    color: #403e3e;
+    &:after{
+      content: "";
+      width: 87px;
+      height: 2px;
+      background-color: #258ffc;
+      display: block;
+      margin: 0 auto;
+      margin-top: 8px;
+    }
+  }
+}
+.howtoset-contain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap:25px;
+  .howtoset_colums{
+    padding: 0px 13px;
+      text-align: center;
+  }
+    .howtoset-card{
+      display: flex;
+      height: 100%;
+    }
+    .card-steps{
+      margin-top: 18px;
+    margin-bottom: 0;
+    color: #258ffc;
+  
+      span{
+        border: 1px solid #258ffc;
+        border-radius: 20px;
+        padding: 3px 15px;
+        box-shadow: 0px 0px 2px 0px #258ffc;   
+      }
+    }
+    .card{
+      box-shadow: 0 0 3px 0px;
+      .howtoset-img{
+        height: 100px;
+        margin: 0 auto;
+        padding: 1.4rem 0px 0.3rem;
+        img{
+          width: 100%;
+          height: 100%;
+          margin: 0 auto;
+          object-fit: contain;
+        }
+      }
+    }
+}
+
+// HowToSetUp end
+// footer 
+.right-arrow{
+  font-size: 20px;
+    font-weight: 900;
+ }
+ .get-started-img{
+  width: 28px;
+  padding-left: 7px;
+  padding-bottom: 4px;
+  height: 27px;
+}
+// download section 
+.download-app{
+  background-color: #fffcfc;
+  border-radius: 27px;
+  .download-app-section { 
+  .heading-1 {
+    display: inline-block;
+    width: auto;
+    font-family: 'Roboto Slab',sans-serif;
+    color: #393939;
+    font-weight: 400;
+    font-size: 30px;
+  }
+    .section_text_h3 {
+      margin-right: 10%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: Montserrat,sans-serif;
+      color: #959595;
+      font-size: 1.3rem;
+      line-height: 1.8rem;
+      font-weight: 400;
+    }
+  }
+}
+.next-pre-button{
+  background-color: #fff !important;
+  border: 1px solid #258ffc !important; 
+  &:hover{
+    background-color: #258ffc;
+    border: 1px solid #258ffc;
+ 
+  }
+  &:focus{
+    box-shadow: 0px 0px 1px 0px #258ffc;
+  }
+  img{
+    width: 20px;
+    height: 24px;
+  }
+}

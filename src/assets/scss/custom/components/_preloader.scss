@@ -1,0 +1,78 @@
+// 
+// preloader.scss
+//
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $card-bg;
+    z-index: 9999;
+}
+.spinner-border{
+
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.log-in-spinner-border{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    background: #5664d2;
+    border: none;
+    right: 0;
+    bottom: 0;
+    padding-top: 7px;
+}
+ 
+.main-content .spinner-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    color: #fff;
+}
+
+.preloading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+    opacity: 0.4;
+    height: 100%;
+    color: #fff;
+    width: 100%;
+    background: #797b7c;
+    transform: translate(-50%, -50%);
+}
+
+#status {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: -20px 0 0 -20px;
+}
+
+.spinner{
+    .spin-icon {
+        font-size: 56px;
+        color: $primary;
+        position: relative;
+        display: inline-block;
+        animation: spin 1.6s infinite linear;
+    }
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(359deg);
+    }
+}
+  
